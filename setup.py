@@ -14,8 +14,8 @@ def get_requirements(file_path:str)->List[str]:
     return requirements
 
 __version__='0.0.1'
-Repo_name= ''
-package_name=''
+Repo_name= 'demo'
+package_name='demo'
 Author='Arpanchakraborty23'
 Author_email='arpanchakraborty500@gmail.com'
 
@@ -29,5 +29,5 @@ setup(
     long_description_content='text/markdown',
     url=f"https//:github.com/{Author}/{Repo_name}",
     packages=find_packages(),
-    install_requries=get_requirements('requirements_dev.txt')
+    install_requries=get_requirements('requirementes.txt')
 )
